@@ -11,7 +11,9 @@ const MainScreen = props => {
   return (
     <>
         <div className="container-bg">
-          <img src="./images/main_screen_bg.jpg" />
+          <img src="./images/main_screen_bg.jpg" className="HideMobile" />
+          <img src='./images/main_screen_bg_mob.jpg' className="HideDesktop" />
+          <div className="MainScreenTransparent"></div>
           <div className="MainContainerWrap">
             <div className="main-container">
                 <NavBar />

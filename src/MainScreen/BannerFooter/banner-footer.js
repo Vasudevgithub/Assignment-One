@@ -4,7 +4,7 @@ import './banner-footer.css'
 
 const BannerFooter = () => {
   return (
-    <div className="BannerFooterWrap">
+    <div className="BannerFooterWrap HideMobile">
       <img src='./images/banner_footer.png' />
     </div>
   )

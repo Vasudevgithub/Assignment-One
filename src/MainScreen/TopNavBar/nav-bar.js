@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './nav-bar.css';
@@ -10,7 +11,8 @@ const NavBar = () => {
         <ul>
             <li><h1>Your Logo</h1></li>
         </ul>
-        <ul>
+        <div className="HideDesktop"><img src="./images/menu_icon.svg" /></div> 
+        <ul className="HideMobile">
         {contain.map((item)=>(
             (
                 <li><a href="#">{item}</a></li>
@@ -26,7 +28,7 @@ const NavBar = () => {
             <li>
                 <button className="TopNavBtn">Call</button>
             </li>
-        </ul>       
+        </ul>            
       </nav>
     </div>
   )

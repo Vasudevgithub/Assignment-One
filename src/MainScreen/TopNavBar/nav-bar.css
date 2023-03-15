@@ -4,6 +4,9 @@
     right: 20px;
     width: 100%;
 } */
+.TopNavBar h1 {
+    color: #fff;
+}
 .TopNavBar>nav {
     display: flex;
     justify-content: space-between;

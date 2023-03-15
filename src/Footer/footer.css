@@ -1,6 +1,7 @@
 .FooterNavBar nav {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 .FooterNavBar ul {
     margin: 0px;

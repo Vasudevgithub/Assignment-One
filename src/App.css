@@ -27,6 +27,9 @@
 .App-link {
   color: #61dafb;
 }
+.HideDesktop {
+  display: none;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -34,5 +37,53 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .HideMobile, .TopNavBar ul:last-child, .FooterNavBar ul:last-child {
+    display: none;
+  }
+  .HideDesktop, .HeaderQuickSearchBg, .ExploreImageWrap {
+    display: block;
+  }
+  .TopBannerHeading {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .TopBannerHeading>div {
+    font-size: 46px;
+  }
+  .BannerHeaderSmallText {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .HeaderQuickSearchTextBoxBg>label>input:valid + .HeaderQuickSearchTextBoxLabel {
+    top: 2px;
+  }
+  .HeaderQuickSearchTextBoxBg {
+    position: relative;
+  }
+  .HeaderQuickSearchWrap {
+    top: 45px;
+    width: 100%;
+  }
+  .HeaderQuickSearchTextBoxBg {
+    margin-bottom: 5px;
+  }
+  .HeaderSearchBtn {
+    margin-top: 5px;
+  }
+  .HeaderSearchBtn, .ExploreImage, .AboutusImageLeft, .AboutusImageRight {
+    width: 100%;
+  }
+  .ExploreImage {
+    margin-bottom: 65px;
+  }
+  .ExplorBlurImage span:first-child {
+    width: 72%;
+  }
+  .span.HeaderQuickSearchTextBoxLabel {
+    top: 27px;
   }
 }

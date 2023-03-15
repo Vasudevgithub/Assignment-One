@@ -15,6 +15,7 @@ const Footer = () => {
                     <nav>
                         <ul>
                             <li><h1>Your Logo</h1></li>
+                            <li>©  2021  Company Name All rights reserved</li>
                         </ul>
                         <ul>
                             {fcontain.map((item)=>(
