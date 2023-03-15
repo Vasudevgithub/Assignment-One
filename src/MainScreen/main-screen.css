@@ -4,6 +4,7 @@
 .MainContainerWrap {
     position: absolute;
     top: 30px;
+    width: 100%;
 }
 .container-bg>img {
     width: 100%;

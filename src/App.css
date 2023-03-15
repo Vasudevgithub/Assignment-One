@@ -83,7 +83,7 @@
   .ExplorBlurImage span:first-child {
     width: 72%;
   }
-  .span.HeaderQuickSearchTextBoxLabel {
+  span.HeaderQuickSearchTextBoxLabel {
     top: 27px;
   }
 }

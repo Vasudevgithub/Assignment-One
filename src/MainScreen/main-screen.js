@@ -19,9 +19,9 @@ const MainScreen = props => {
                 <NavBar />
                 <BannerHeader /> 
                 <HeaderQuickSearch />          
-            </div>
-            <BannerFooter />
+            </div>            
           </div>
+          <BannerFooter />
         </div>        
     </>    
   )
