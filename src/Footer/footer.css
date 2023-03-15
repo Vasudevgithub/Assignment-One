@@ -1,0 +1,35 @@
+.FooterNavBar nav {
+    display: flex;
+    justify-content: space-between;
+}
+.FooterNavBar ul {
+    margin: 0px;
+    padding: 0px;
+}
+.FooterNavBar ul li {
+    list-style-type: none;
+}
+.FooterNavBar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.FooterNavBar ul:last-child li {
+    margin-left: 20px;
+}
+.FooterNavBar ul:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.FooterNavBtn {
+    background: transparent;
+    border: 1px solid #000;
+    padding: 7px 25px;
+    border-radius: 6px;
+    color: #000;
+    cursor: pointer;
+}
+.FooterNavDropdown {
+    border: none;
+}

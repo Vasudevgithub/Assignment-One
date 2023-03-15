@@ -1,0 +1,25 @@
+.AboutusContainer { margin-top: 130px;}
+.AboutusImageLeft, .AboutusImageRight {
+    position: relative;
+    border-radius: 20px;
+}
+.AboutusImageLeft {width: 45%;}
+.AboutusImageRight {width: 53%;}
+.AboutusChapterImageBottom {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.AboutusChapterImageBottom>img {
+    width: 100%;
+    border-radius: 20px;
+}
+.ExplorBlurImage h1 {
+    margin: 0px;
+}
+.AboutImageBottomWrap {
+    position: absolute;
+    bottom: -60px;
+    width: 90%;
+}

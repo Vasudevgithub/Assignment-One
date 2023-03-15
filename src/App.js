@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+/* eslint-disable react/jsx-no-undef */
+import MainScreen from './MainScreen/main-screen';
+import ExploreScreen from './ExploreScreen/explore-screen';
+import AboutUs from './AboutUs/about-us';
+import Footer from './Footer/footer';
 import './App.css';
 
 function App() {
+ // const name = 'ravi';
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <MainScreen/>
+      <ExploreScreen />
+      <AboutUs />
+      <Footer />
     </div>
   );
 }

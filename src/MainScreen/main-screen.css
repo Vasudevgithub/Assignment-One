@@ -1,0 +1,10 @@
+.container-bg {
+    position: relative;
+}
+.MainContainerWrap {
+    position: absolute;
+    top: 30px;
+}
+.container-bg>img {
+    width: 100%;
+}

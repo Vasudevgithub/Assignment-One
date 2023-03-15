@@ -1,0 +1,71 @@
+.HeaderQuickSearchWrap {
+    top: 90px;
+    color: #000;
+    position: relative;
+    background: linear-gradient(94.43deg, rgba(249, 249, 249, 0.49) 34.95%, rgba(249, 249, 249, 0.175) 67.01%);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 62%;
+    margin: 0px auto;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+.HeaderQuickSearchBg {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.HeaderSearchBtn {
+    background: linear-gradient(90deg, #FF594C 0%, #FAC527 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    gap: 10px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+.HeaderSearchBtn>span {
+    display: flex;
+}
+.HeaderSearchBtn>span>img {
+    width: 20px;
+    height: 20px;
+}
+.HeaderQuickSearchTextBoxBg {
+    background: #fff;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+.HeaderQuickSearchTextBoxBg>label {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+}
+.HeaderQuickSearchTextBoxBg>label>input {
+    background: transparent;
+    border: none;
+    position: relative;
+    top: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border: 1px solid #fff;
+}
+.HeaderQuickSearchTextBoxBg>label>input[type=text]:focus {
+    border: 1px solid #fff;
+}
+.HeaderQuickSearchTextBoxBg>label>input:valid + .HeaderQuickSearchTextBoxLabel {
+    top: 13px;
+}
+span.HeaderQuickSearchTextBoxLabel {
+    position: absolute;
+    /* left: 0; */
+    top: 35px;
+    padding-left: 3px;
+}

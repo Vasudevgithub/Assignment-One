@@ -1,0 +1,44 @@
+/* .TopNavBar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100%;
+} */
+.TopNavBar>nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.TopNavBar ul {
+    margin: 0px;
+    padding: 0px;
+}
+.TopNavBar ul:first-child li {
+    list-style-type: none;
+}
+.TopNavBar ul:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TopNavBar ul:last-child li {
+    list-style-type: none;
+    margin-left: 35px;
+}
+.TopNavBar ul li>a {
+    color: #fff;
+    text-decoration: none;
+}
+.TopNavBar select.TopNavDropdown {
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.TopNavBtn {
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 25px;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+}
